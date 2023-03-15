@@ -1,0 +1,14 @@
+0) TEST DATA: [
+    ["Ru", ["С чего начать?", "Док", "ЧАВО", "Блог", "Javadoc", "Пользователи", "Отзывы"] ]
+    ["En", ["Quick start", "Docs", "FAQ", "Blog", "Javadoc", "Users", "Quotes"] ]
+    ]
+1) TITLE: Для локали TEST_DATA[0] на сайте https://selenide.org/ должен отображаться список кнопок TEST_DATA[1]
+2) PRIORITY / SEVERITY
+
+4) STEPS
+ - Открыть браузер Chrome
+ - Открыть сайт https://selenide.org/
+ - Выбрать локаль TEST_DATA[0]
+
+5) EXPECTED RESULT
+ - На сайте для выбранной локали должен отображаться список кнопок TEST_DATA[1]

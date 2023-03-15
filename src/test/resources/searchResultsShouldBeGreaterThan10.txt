@@ -1,0 +1,14 @@
+0) TEST DATA: [
+    ["Selenide", "лаконичные и стабильные UI тесты на Java"]
+    ["Allure framework", "Allure Framework · GitHub"]
+    ]
+1) TITLE: В первом результате выдачи для TEST_DATA[0] должен отображаться текст TEST_DATA[1]
+2) PRIORITY / SEVERITY
+3*) PRECONDITIONS: Открыт браузер Chrome, открыта главная страница ya.ru
+
+4) STEPS
+ - В поле поиска ввести TEST_DATA[0]
+ - Нажать кнопку "Найти"
+
+5) EXPECTED RESULT
+ - В поисковой выдаче яндекса в первом результате отображается текст TEST_DATA[1]
