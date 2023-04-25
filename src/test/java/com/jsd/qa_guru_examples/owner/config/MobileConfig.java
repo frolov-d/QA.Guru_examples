@@ -1,4 +1,4 @@
-package com.jsd.qa_guru_examples.owner;
+package com.jsd.qa_guru_examples.owner.config;
 
 import org.aeonbits.owner.Config;
 

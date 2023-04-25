@@ -1,5 +1,6 @@
 package com.jsd.qa_guru_examples.owner;
 
+import com.jsd.qa_guru_examples.owner.config.MobileConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Test;
 
